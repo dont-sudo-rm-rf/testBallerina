@@ -82,6 +82,7 @@ service graphql:Service / on new graphql:Listener(8090) {
         }
     }
 
+
     # Delete the book item from the reading list.
     # + id - Id of the deleting book item.
     # + return - deleted book item.
